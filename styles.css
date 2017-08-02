@@ -1,0 +1,39 @@
+body {
+  padding-bottom: 150px;
+}
+
+header#portfolio-header {
+  background: url(images/bg.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1, #slogan {
+  color: white;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+footer#connect {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+#footer-links {
+  margin: auto;
+  font-size: 2rem;
+}  
